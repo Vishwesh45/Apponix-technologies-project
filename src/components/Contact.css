@@ -1,0 +1,189 @@
+:root {
+  --primary-color: #f0a500;
+  --text-color: #333;
+  --subtext-color: #777;
+  --background-color: #fff;
+  --hover-color: #d68f00;
+}
+
+.contact {
+  padding: 60px;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.contact h2,
+.contact-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact p,
+.contact-description {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+  color: var(--subtext-color);
+}
+
+/* Form Styles */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact input,
+.contact textarea {
+  width: 50%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact textarea {
+  height: 150px;
+}
+
+.submit-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.submit-button:hover {
+  background-color: var(--hover-color);
+}
+
+/* Underline Styles */
+.underline {
+  width: 80%; /* Adjust width as necessary */
+  height: 2px; /* Thickness of the underline */
+  background-color: var(--primary-color); /* Use your primary color */
+  margin: 20px auto; /* Center the underline with margin */
+}
+
+/* Get in Touch Section */
+.get-in-touch {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.get-in-touch-heading {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping for small screens */
+}
+
+.contact-image {
+  width: 300px; /* Adjust as necessary */
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 1.3rem; /* Increased font size */
+}
+
+.contact-method {
+  margin-bottom: 15px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.contact-link:hover {
+  color: var(--primary-color); /* Change color on hover */
+}
+
+.contact-link svg {
+  margin-right: 8px; /* Spacing between icon and text */
+}
+
+/* Location Section */
+.location-section {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.location-heading {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px; /* Limit the width */
+  height: 450px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .get-in-touch {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-image {
+    margin: 0 0 20px 0; /* Center image on small screens */
+  }
+
+  .contact-content {
+    flex-direction: column; /* Stack content on mobile */
+    align-items: center; /* Center align items */
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 80%; /* Full width on smaller screens */
+  }
+
+  .contact-details {
+    align-items: center; /* Center align contact details */
+    text-align: center; /* Center align text on mobile */
+  }
+
+.location-section {
+  padding: 10px; 
+  width: 350px;/* Reduce padding on mobile */
+}
+
+iframe {
+  height: 200px;
+  width: 300px; /* Further decrease height for mobile */
+}
+}

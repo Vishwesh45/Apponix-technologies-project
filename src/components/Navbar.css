@@ -1,0 +1,55 @@
+/* General Navbar Styles (for larger screens) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: rgba(255, 255, 255, 0.9); /* Whitish ash color with slight transparency */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    z-index: 1000; /* Ensure it's above other content */
+    transition: backdrop-filter 0.3s ease; /* Smooth transition for blur */
+}
+
+.logo a {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+.cta-button {
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #d68f00;
+}
+

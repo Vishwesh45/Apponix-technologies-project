@@ -1,0 +1,27 @@
+/* Import DM Sans font globally */
+* {
+  font-family: 'DM Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply global text color */
+body {
+  color: #53492c; /* Global text color */
+  background-color: #fff; /* Default background color */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Ensures links use the global text color */
+}
+
+.service-card {
+  transition: background-color 0.3s;
+}
+
+.service-card:hover {
+  background-color: #f0a500; /* Change to your desired hover color */
+  color: white; /* Adjust text color on hover if needed */
+}

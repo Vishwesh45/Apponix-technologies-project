@@ -1,0 +1,48 @@
+nav {
+  background: #f09c00;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  animation: scroll 20s linear infinite; /* Increased duration to 20s */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  nav {
+    overflow-x: hidden; /* Hide overflow since we want automatic scrolling */
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  nav ul {
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+    display: inline-block;
+  }
+}
+

@@ -1,0 +1,138 @@
+/* General styles for larger screens */
+.hero-content {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #f0a500;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.cta-button:hover {
+  background-color: #d68f00;
+}
+
+.about, .services, .why-choose-us {
+  width: 100%;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.about h2, .services h2, .why-choose-us h2 {
+  position: relative;
+  display: inline-block;
+  font-size: 2.5rem;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.service-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.why-choose-us {
+  margin-top: 40px;
+}
+
+.why-choose-us h3 {
+  font-size: 1.5rem;
+}
+
+.why-choose-us p {
+  font-size: 1rem;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.fade-in-up-delay {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Mobile responsiveness: */
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem; /* Reduce the hero title font size */
+  }
+
+  .hero-content p {
+    font-size: 1rem; /* Smaller paragraph text for mobile */
+  }
+
+  .cta-button {
+    font-size: 16px; /* Reduce button font size */
+    padding: 10px 20px; /* Smaller padding */
+  }
+
+  .about, .services, .why-choose-us {
+    padding: 30px 10px; /* Reduce padding for mobile */
+  }
+
+  .about h2, .services h2, .why-choose-us h2 {
+    font-size: 2rem; /* Smaller heading for mobile */
+  }
+
+  .service-cards {
+    flex-direction: column; /* Stack service cards vertically */
+    gap: 10px;
+  }
+
+  .service-card {
+    width: 100%; /* Full width for each card */
+  }
+
+  .why-choose-us h3 {
+    font-size: 1.2rem; /* Smaller headings */
+  }
+
+  .why-choose-us p {
+    font-size: 0.9rem; /* Smaller paragraph text */
+  }
+
+  /* Adjust the hero section image for mobile */
+  .hero-content {
+    background-size: cover;
+    padding: 20px;
+  }
+}
