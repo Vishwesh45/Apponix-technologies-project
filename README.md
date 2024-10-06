@@ -2,7 +2,7 @@
 
 **Disclaimer:** This is not an actual website or an official representation of Apponix Technologies. It is a conceptual project built to showcase a frontend application, imagining the company's branding and utilizing information about their services.
 
-Welcome to the Apponix Technologies Frontend Project! This React application serves as a showcase for web development services, providing a clean and user-friendly interface for potential clients to explore the offerings imagined for Apponix Technologies.
+Welcome to the Apponix Technologies Frontend Project! This React application serves as a showcase forsoftware devlopment, graphic deign, content marketing and more  services, providing a clean and user-friendly interface for potential clients to explore the offerings provided by Apponix Technologies.
 
 
 ## Table of Contents
