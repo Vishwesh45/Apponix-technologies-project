@@ -33,7 +33,7 @@ Welcome to the Apponix Technologies Frontend Project! This React application ser
 
 ## Images
 
-![Screenshot 1](images/app.png)
+![Screenshot 1](images/app2.jpg)
 ![Screenshot 2](images/taskit_screenshot2.png)
 
 ## Installation
