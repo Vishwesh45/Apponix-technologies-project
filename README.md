@@ -1,4 +1,4 @@
-# Apponix Technologies - Frontend Web Development Services
+# Apponix Technologies - Frontend React Project
 
 **Disclaimer:** This is not an actual website or an official representation of Apponix Technologies. It is a conceptual project built to showcase a frontend application, imagining the company's branding and utilizing information about their services.
 
