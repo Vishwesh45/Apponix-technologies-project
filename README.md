@@ -31,6 +31,11 @@ Welcome to the Apponix Technologies Frontend Project! This React application ser
   - Axios (for API calls, if applicable)
   - Bootstrap or Material-UI (for UI components)
 
+## Images
+
+![Screenshot 1](images/app.png)
+![Screenshot 2](images/taskit_screenshot2.png)
+
 ## Installation
 
 To get a local copy of this project up and running, follow these steps:
