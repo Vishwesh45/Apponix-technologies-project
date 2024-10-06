@@ -33,10 +33,10 @@ Welcome to the Apponix Technologies Frontend Project! This React application ser
 
 ## Images
 
-![Screenshot 1](/public/sampleimages/home.png)
-![Screenshot 1](/public/sampleimages/servicespage.png)
-![Screenshot 1](/public/sampleimages/getin.png)
-![Screenshot 1](/public/sampleimages/footer.png)
+![Screenshot 1](/public/sampleimg/home.png)
+![Screenshot 1](/public/sampleimg/servicespage.png)
+![Screenshot 1](/public/sampleimg/getin.png)
+![Screenshot 1](/public/sampleimg/footer.png)
 
 
 
